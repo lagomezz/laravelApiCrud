@@ -21,7 +21,7 @@ class ApiController extends Controller
         $student->save();
     
         return response()->json([
-            "message" => "student record created"
+            "message" => "student record created lol"
         ], 201);
       
       }
@@ -33,7 +33,7 @@ class ApiController extends Controller
             return response($student, 200);
           } else {
             return response()->json([
-              "message" => "Student not found"
+              "message" => "Student not found lol"
             ], 404);
           }
       }
